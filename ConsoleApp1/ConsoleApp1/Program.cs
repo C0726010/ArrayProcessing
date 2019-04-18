@@ -39,6 +39,13 @@ namespace ConsoleApp1
                 }
             }
             Console.Write("\nThe fre1 of all elements of the array : \n");/*part 2*/
+            for (i = 0; i < n; i++)
+            {
+                if (fre1[i] != 0)
+                {
+                    Console.Write("{0} occurs {1} times\n", arr1[i], fre1[i]);
+                }
+            }
         }
     }
 }
